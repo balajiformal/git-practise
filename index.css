@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px 5px 25px;
+
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+ul li{
+    list-style-type:none;
+    margin: 0px 20px 0px 20px;
+}
+
+main{
+    background-image: url(hero-img.png);
+    background-size: 100% 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.txt-container{
+    margin-left: 150px;
+    width: 350px;
+    margin-bottom: 50px;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    margin: 40px;
+    border-radius: 5px;
+}
+
+.section4 div img{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.section5{
+    font-family: "Caveat", cursive;
+    height: 120px;
+    background-color: lavender;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
